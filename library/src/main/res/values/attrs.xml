@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlipboardSheetView">
+        <attr name="sheet_layout" format="reference"/>
+        <attr name="peek_height" format="dimension"/>
+        <attr name="zoom_margin" format="dimension"/>
+    </declare-styleable>
+</resources>
