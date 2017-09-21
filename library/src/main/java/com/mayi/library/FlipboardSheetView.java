@@ -159,6 +159,10 @@ public class FlipboardSheetView extends CoordinatorLayout {
         }
     }
 
+    public int getState() {
+        return state;
+    }
+
     private void stateAnimator() {
         Log.i(TAG, "stateAnimator: " + isDragging);
         if (isDragging) return;
