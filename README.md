@@ -3,8 +3,8 @@
 
 利用`BottomSheetBehavior`仿造Flipboard制作了一个可用于收藏分享之类的页面。
 
-![image](https://github.com/yugai/FlipboardSheet/image/image1.gif)
-![image](https://github.com/yugai/FlipboardSheet/image/image2.gif)
+![image1](https://github.com/yugai/FlipboardSheet/blob/master/image/image1.gif)
+![image2](https://github.com/yugai/FlipboardSheet/blob/master/image/image2.gif)
 
 ## 依赖
 
@@ -17,7 +17,29 @@
 
 
 ```xml
-<com.mayi.library.FlipboardSheetView     android:id="@+id/flipboard_view"     xmlns:android="http://schemas.android.com/apk/res/android"     xmlns:app="http://schemas.android.com/apk/res-auto"     xmlns:tools="http://schemas.android.com/tools"     android:layout_width="match_parent"     android:layout_height="match_parent"     android:background="@android:color/black"     app:peek_height="100dp"      app:sheet_layout="@layout/bottom_sheet_layout"     app:zoom_margin="50dp">      <FrameLayout         android:layout_width="match_parent"         android:layout_height="match_parent"         android:background="@android:color/white">          <ImageView             android:onClick="click"             android:layout_width="wrap_content"             android:layout_height="wrap_content"             android:layout_gravity="center"             android:background="@mipmap/ic_launcher_round"/>     </FrameLayout> </com.mayi.library.FlipboardSheetView>
+<com.mayi.library.FlipboardSheetView 
+    android:id="@+id/flipboard_view" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent" 
+    android:background="@android:color/black" 
+    app:peek_height="100dp"  
+    app:sheet_layout="@layout/bottom_sheet_layout" 
+    app:zoom_margin="50dp">  
+    <FrameLayout 
+        android:layout_width="match_parent" 
+        android:layout_height="match_parent" 
+        android:background="@android:color/white">  
+    <ImageView 
+        android:onClick="click" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:layout_gravity="center" 
+        android:background="@mipmap/ic_launcher_round"/> 
+    </FrameLayout>
+     </com.mayi.library.FlipboardSheetView>
 ```
 
 属性 | 作用
